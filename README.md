@@ -11,3 +11,14 @@ The original object, called context, holds a reference to a strategy object and 
 
 ___
 
+
+## State
+State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
+
+The State pattern suggests that you create new classes for all possible states of an object and extract all state-specific behaviors into these classes.
+
+Instead of implementing all behaviors on its own, the original object, called context, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
+
+![image](https://user-images.githubusercontent.com/49389693/130337850-f03786c4-652c-4721-9136-9ec8223453d8.png)
+
+----
